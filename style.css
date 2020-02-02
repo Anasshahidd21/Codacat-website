@@ -4,6 +4,15 @@
 html {
 	scroll-behavior: smooth;
 }
+
+.gh {
+	opacity: 0.4;
+}
+
+.gh:hover {
+	opacity: 0.8;
+	transition: ease-in 1s;
+}
 .navigation a {
 	text-decoration: none;
 }
