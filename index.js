@@ -69,29 +69,15 @@ next.addEventListener('click', () => {
 	console.log(count);
 	count++;
 });
-lesson.window.location.href = curriculum[curriculum.length - 1].URL;
+// lesson.window.location.href = curriculum[curriculum.length - 1].URL;
+var lessonCounter = count - 1;
 lesson.addEventListener('click', () => {
-	window.location.href = curriculum[count].URL;
+	lessonCounter = count - 1;
+	if (lessonCounter < 0) {
+		window.location.href = curriculum[curriculum.length - 1].URL;
+		console.log(count, lessonCounter);
+	} else {
+		window.location.href = curriculum[lessonCounter].URL;
+		console.log('else', count, lessonCounter);
+	}
 });
-
-// artwork
-
-// const artwork = [
-// 	'./assets/cheer.png',
-// 	'./assets/dab.png',
-// 	'./assets/fancy.png',
-// 	'./assets/friend3yay.png',
-// 	'./assets/friendsit.png',
-// 	'./assets/hideandseek1.png',
-// 	'./assets/hideandseek2.png',
-// 	'./assets/hideandseek3.png',
-// 	'./assets/hideandseek4.png',
-// 	'./assets/yarnsit.png',
-// 	'./assets/yarnyay.png',
-// 	'./assets/yayfriend.png',
-// 	'./assets/yeah.png',
-// ];
-
-// let art = 1;
-// const artimage = document.querySelector('#artwork-image');
-// const nextArt = document.querySelector('#nextArt');
