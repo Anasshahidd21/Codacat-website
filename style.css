@@ -1,0 +1,75 @@
+* {
+	font-family: 'Sigmar One', cursive;
+}
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+}
+.navigation li {
+	padding: 10px;
+	list-style-type: none;
+	color: rgb(228, 125, 137);
+}
+
+.navigation li:first-child {
+	color: rgb(134, 62, 70);
+}
+
+.top-bar {
+	height: 90vh;
+}
+.parent {
+	display: flex;
+	justify-content: space-around;
+}
+
+.text {
+	margin-left: 10px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.text h1 {
+	font-size: 50px;
+	color: rgb(228, 125, 137);
+}
+
+.flex-image {
+	width: 350px;
+}
+
+.ellipses {
+	font-size: 60px;
+	text-align: center;
+	opacity: 0.6;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+/* About */
+
+.about-us {
+	text-align: center;
+	font-size: 32px;
+	margin-top: 0;
+	height: 100vh;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+	margin-bottom: 10px;
+}
+
+.icon > h4 {
+	margin-bottom: 7px;
+}
+.icon > p {
+	max-width: 350px;
+	font-size: 18px;
+	text-align: justify;
+	margin-top: 0;
+}
