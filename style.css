@@ -1,6 +1,9 @@
 * {
 	font-family: 'Sigmar One', cursive;
 }
+.navigation a {
+	text-decoration: none;
+}
 .navigation {
 	display: flex;
 	justify-content: space-evenly;
@@ -10,6 +13,7 @@
 	padding: 10px;
 	list-style-type: none;
 	color: rgb(228, 125, 137);
+	text-decoration: none;
 }
 
 .navigation li:first-child {
@@ -37,7 +41,7 @@
 }
 
 .happy-cat {
-	filter: drop-shadow(30px 10px 30px #c9c9c9);
+	filter: drop-shadow(30px 10px 30px #eee8e8);
 }
 
 .flex-image {
@@ -102,6 +106,9 @@ button:hover {
 }
 
 /* image-slider */
+.curriculum {
+	height: 100vh;
+}
 
 .image-ss {
 	display: flex;
@@ -141,10 +148,6 @@ button:hover {
 	word-wrap: break-word;
 	margin-left: 15%;
 	margin-right: 15%;
-}
-
-.curriculum {
-	height: 100vh;
 }
 
 .courses {

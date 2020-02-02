@@ -12,17 +12,19 @@
 	<body>
 		<nav class="navbar">
 			<ul class="navigation">
-				<li class="nav-item">Home</li>
-				<li class="nav-item">About Us</li>
-				<li class="nav-item">Contact Us</li>
+				<a href="#home"> <li class="nav-item">Home</li></a>
+				<a href="#about"> <li class="nav-item">About Us</li></a>
+				<a href="#curriculum"> <li class="nav-item">Curriculum</li></a>
 			</ul>
 		</nav>
 
-		<section class="top-bar">
+		<section class="top-bar" id="home">
 			<div class="parent">
 				<div class="text">
 					<h1>Welcome to <br />Codacat!</h1>
-					<button>Start Learning now</button>
+					<button class="main-button">
+						Start Learning now
+					</button>
 				</div>
 				<div class="image">
 					<img class="happy-cat flex-image" src="./assets/yeah.png" alt="Happy Cat" />
@@ -31,7 +33,7 @@
 			<p class="ellipses">&#8230;</p>
 		</section>
 
-		<section class="about-us">
+		<section class="about-us" id="about">
 			<h1 class="aboutt">About Us</h1>
 			<div class="parent">
 				<div class="text icon">
@@ -64,7 +66,7 @@
 			<p class="ellipses">&#8230;</p>
 		</section>
 
-		<section class="curriculum">
+		<section class="curriculum" id="curriculum">
 			<div class="container">
 				<h1 class="courses">Curriculum</h1>
 				<div class="image-ss">
@@ -72,13 +74,14 @@
 					<h1 class="slider next">></h1>
 				</div>
 				<div class="text-content">
-					<h3 class="title">First Title</h3>
-					<p class="desc">First Description</p>
+					<h3 class="title">Bubble Sort</h3>
+					<p class="desc">This is the explanation of bubble sort.</p>
 					<button id="lesson">Begin Lesson</button>
 				</div>
 			</div>
 			<p class="ellipses">&#8230;</p>
 		</section>
+
 		<script src="./index.js"></script>
 	</body>
 </html>
