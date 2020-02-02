@@ -12,17 +12,19 @@
 	<body>
 		<nav class="navbar">
 			<ul class="navigation">
-				<li class="nav-item">Home</li>
-				<li class="nav-item">About Us</li>
-				<li class="nav-item">Contact Us</li>
+				<a href="#home"> <li class="nav-item">Home</li></a>
+				<a href="#about"> <li class="nav-item">About Us</li></a>
+				<a href="#curriculum"> <li class="nav-item">Curriculum</li></a>
 			</ul>
 		</nav>
 
-		<section class="top-bar">
+		<section class="top-bar" id="home">
 			<div class="parent">
 				<div class="text">
 					<h1>Welcome to <br />Codacat!</h1>
-					<button>Start Learning now</button>
+					<button class="main-button">
+						Start Learning now
+					</button>
 				</div>
 				<div class="image">
 					<img class="happy-cat flex-image" src="./assets/yeah.png" alt="Happy Cat" />
@@ -31,12 +33,12 @@
 			<p class="ellipses">&#8230;</p>
 		</section>
 
-		<section class="about-us">
-			<h1>About Us</h1>
+		<section class="about-us" id="about">
+			<h1 class="aboutt">About Us</h1>
 			<div class="parent">
 				<div class="text icon">
 					<i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i>
-					<h4>Learn to Code</h3>
+					<h5>Learn to Code</h5>
 					<p>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores non nisi dolorem
 						voluptatibus animi provident, velit id molestiae excepturi minima.
@@ -44,8 +46,8 @@
 				</div>
 
 				<div class="text icon">
-                    <i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
-					<h4>Personalized Learning</h4>
+					<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
+					<h5>Personalized Learning</h5>
 					<p>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores non nisi dolorem
 						voluptatibus animi provident, velit id molestiae excepturi minima.
@@ -53,16 +55,36 @@
 				</div>
 
 				<div class="text icon">
-                    <i class="fa fa-telegram fa-2x" aria-hidden="true"></i>
-					<h4>Succeed in Career</h4>
+					<i class="fa fa-telegram fa-2x" aria-hidden="true"></i>
+					<h5>Succeed in Career</h5>
 					<p>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores non nisi dolorem
 						voluptatibus animi provident, velit id molestiae excepturi minima.
 					</p>
 				</div>
-            </div>
-            <p class="ellipses">&#8230;</p>
-
+			</div>
+			<p class="ellipses">&#8230;</p>
 		</section>
+
+		<section class="curriculum" id="curriculum">
+			<div class="container">
+				<h1 class="courses">Curriculum</h1>
+				<div class="image-ss">
+					<img id="ss-image" src="./assets/screenshot.png" alt="" />
+					<h1 class="slider next">></h1>
+				</div>
+				<div class="text-content">
+					<h3 class="title">CodaCat 101</h3>
+					<p class="desc">
+						But where is he? Write this line of code in the main function and press the play button at the
+						top to make him appear :)
+					</p>
+					<button id="lesson">Begin Lesson</button>
+				</div>
+			</div>
+			<p class="ellipses">&#8230;</p>
+		</section>
+
+		<script src="./index.js"></script>
 	</body>
 </html>

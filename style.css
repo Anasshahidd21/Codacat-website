@@ -1,6 +1,9 @@
 * {
 	font-family: 'Sigmar One', cursive;
 }
+.navigation a {
+	text-decoration: none;
+}
 .navigation {
 	display: flex;
 	justify-content: space-evenly;
@@ -10,6 +13,7 @@
 	padding: 10px;
 	list-style-type: none;
 	color: rgb(228, 125, 137);
+	text-decoration: none;
 }
 
 .navigation li:first-child {
@@ -33,12 +37,32 @@
 .text h1 {
 	font-size: 50px;
 	color: rgb(228, 125, 137);
+	font-family: 'Sigmar One', cursive;
+}
+
+.happy-cat {
+	filter: drop-shadow(30px 10px 30px #eee8e8);
 }
 
 .flex-image {
 	width: 350px;
 }
 
+/* Button Style */
+button {
+	padding: 20px;
+	word-wrap: break-word;
+	background-color: salmon;
+	color: whitesmoke;
+	border-radius: 20px;
+	border: none;
+	filter: drop-shadow(30px 10px 30px #c9c9c9);
+}
+button:hover {
+	transform: scale(1.05);
+	transition: ease-out 1s;
+}
+/* button ends */
 .ellipses {
 	font-size: 60px;
 	text-align: center;
@@ -53,23 +77,83 @@
 	text-align: center;
 	font-size: 32px;
 	margin-top: 0;
-	height: 100vh;
+	height: 90vh;
+	color: rgb(41, 41, 41);
 }
 
 * {
 	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(41, 41, 41);
 }
-
+.aboutt {
+	color: rgb(228, 125, 137);
+	font-family: 'Sigmar One', cursive;
+}
 .icon {
 	margin-bottom: 10px;
 }
 
-.icon > h4 {
-	margin-bottom: 7px;
+.icon > h5 {
+	margin-bottom: 3px;
+	font-size: 18px;
 }
 .icon > p {
 	max-width: 350px;
-	font-size: 18px;
+	font-size: 15px;
 	text-align: justify;
 	margin-top: 0;
+	word-wrap: break-word;
+}
+
+/* image-slider */
+.curriculum {
+	height: 100vh;
+}
+
+.image-ss {
+	display: flex;
+}
+
+#ss-image {
+	max-width: 70%;
+	align-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	flex-basis: 98%;
+}
+
+.slider {
+	flex-basis: 02%;
+	text-align: right;
+	font-size: 6rem;
+	margin-right: 20px;
+	margin-top: 10%;
+	opacity: 0.4;
+}
+
+.slider:hover {
+	opacity: 0.9;
+	transition: ease-in 1s;
+	cursor: pointer;
+}
+.text-content {
+	text-align: center;
+}
+.title {
+	font-size: 32px;
+}
+
+.desc {
+	word-wrap: break-word;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.courses {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0;
+	font-family: 'Sigmar One', cursive;
+	color: rgb(228, 125, 137);
 }
