@@ -1,13 +1,5 @@
 const curriculum = [
 	{
-		Title: 'CodaCat 101',
-		Description:
-			'But where is he? Write this line of code in the main function and press the play button at the top to make him appear :)',
-		Image: './assets/codacat101.PNG',
-		URL: 'https://www.openprocessing.org/sketch/833647',
-	},
-
-	{
 		Title: 'Dancing Array',
 		Description:
 			'Teach Coda how to dance with arrays! Arrays are list of things, in this case list of dance moves. We taught Coda a few, see if you can use them',
@@ -31,12 +23,12 @@ const curriculum = [
 		URL: 'https://www.openprocessing.org/sketch/833604',
 	},
 
-	// {
-	// 	Title: 'Fifth Assignment',
-	// 	Description: 'desc',
-	// 	Image: './assets/screenshot.png',
-	// 	URL: '',
-	// },
+	{
+		Title: 'Bubble Sort',
+		Description: 'This is the explanation of bubble sort.',
+		Image: './assets/screenshot.png',
+		URL: 'https://www.openprocessing.org/sketch/833604',
+	},
 
 	// {
 	// 	Title: 'Sixth Assignment',
