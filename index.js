@@ -11,7 +11,7 @@ const curriculum = [
 		Title: 'Hide and Seek',
 		Description:
 			'Quick, we need to hide Coda!First, lets look at the array of hiding spots and hide our favourite cat at the first one we see',
-		Image: './assets/hidenseek.PNG',
+		Image: './assets/hidenSeek.PNG',
 		URL: 'https://www.openprocessing.org/sketch/833642/',
 	},
 
@@ -27,7 +27,7 @@ const curriculum = [
 		Title: 'Bubble Sort',
 		Description: 'This is the explanation of bubble sort.',
 		Image: './assets/screenshot.png',
-		URL: 'https://www.openprocessing.org/sketch/833604',
+		URL: 'https://www.openprocessing.org/sketch/833668',
 	},
 
 	// {
