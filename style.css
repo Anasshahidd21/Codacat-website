@@ -1,6 +1,9 @@
 * {
 	font-family: 'Sigmar One', cursive;
 }
+html {
+	scroll-behavior: smooth;
+}
 .navigation a {
 	text-decoration: none;
 }
@@ -20,6 +23,12 @@
 	color: rgb(134, 62, 70);
 }
 
+.logo {
+	position: absolute;
+	left: 5px;
+	top: 2px;
+	width: 100px;
+}
 .top-bar {
 	height: 90vh;
 }
