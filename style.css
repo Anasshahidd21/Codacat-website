@@ -79,7 +79,10 @@ button:hover {
 	margin-bottom: 0;
 	margin-top: 10px;
 }
-
+button a {
+	text-decoration: none;
+	color: whitesmoke;
+}
 /* About */
 
 .about-us {
