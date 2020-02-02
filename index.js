@@ -27,7 +27,7 @@ const curriculum = [
 		Title: 'Bubble Sort',
 		Description: 'This is the explanation of bubble sort.',
 		Image: './assets/screenshot.png',
-		URL: 'https://www.openprocessing.org/sketch/833604',
+		URL: 'https://www.openprocessing.org/sketch/833668',
 	},
 
 	// {
