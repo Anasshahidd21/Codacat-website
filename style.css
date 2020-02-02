@@ -33,6 +33,7 @@
 .text h1 {
 	font-size: 50px;
 	color: rgb(228, 125, 137);
+	font-family: 'Sigmar One', cursive;
 }
 
 .happy-cat {
@@ -43,15 +44,21 @@
 	width: 350px;
 }
 
+/* Button Style */
 button {
-	-webkit-transition-duration: 0.4s; /* Safari */
-	transition-duration: 0.4s;
+	padding: 20px;
+	word-wrap: break-word;
+	background-color: salmon;
+	color: whitesmoke;
+	border-radius: 20px;
+	border: none;
+	filter: drop-shadow(30px 10px 30px #c9c9c9);
 }
-
 button:hover {
-	background-color: #4caf50; /* Green */
-	color: white;
+	transform: scale(1.05);
+	transition: ease-out 1s;
 }
+/* button ends */
 .ellipses {
 	font-size: 60px;
 	text-align: center;
@@ -67,24 +74,31 @@ button:hover {
 	font-size: 32px;
 	margin-top: 0;
 	height: 90vh;
+	color: rgb(41, 41, 41);
 }
 
 * {
 	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(41, 41, 41);
 }
-
+.aboutt {
+	color: rgb(228, 125, 137);
+	font-family: 'Sigmar One', cursive;
+}
 .icon {
 	margin-bottom: 10px;
 }
 
-.icon > h4 {
-	margin-bottom: 7px;
+.icon > h5 {
+	margin-bottom: 3px;
+	font-size: 18px;
 }
 .icon > p {
 	max-width: 350px;
-	font-size: 18px;
+	font-size: 15px;
 	text-align: justify;
 	margin-top: 0;
+	word-wrap: break-word;
 }
 
 /* image-slider */
@@ -137,4 +151,6 @@ button:hover {
 	text-align: center;
 	font-size: 40px;
 	margin-top: 0;
+	font-family: 'Sigmar One', cursive;
+	color: rgb(228, 125, 137);
 }
