@@ -30,12 +30,13 @@ const curriculum = [
 		URL: 'https://www.openprocessing.org/sketch/833668',
 	},
 
-	// {
-	// 	Title: 'Sixth Assignment',
-	// 	Description: 'desc',
-	// 	Image: './assets/screenshot.png',
-	// 	URL: '',
-	// },
+	{
+		Title: 'CodaCat 101',
+		Description:
+			'But where is he? Write this line of code in the main function and press the play button at the top to make him appear :)',
+		Image: './assets/screenshot.png',
+		URL: 'https://www.openprocessing.org/sketch/833647',
+	},
 
 	// {
 	// 	Title: 'Seventh Assignment',
@@ -68,6 +69,7 @@ next.addEventListener('click', () => {
 	console.log(count);
 	count++;
 });
+lesson.window.location.href = curriculum[curriculum.length - 1].URL;
 lesson.addEventListener('click', () => {
 	window.location.href = curriculum[count].URL;
 });
