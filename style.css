@@ -110,6 +110,30 @@ button a {
 	color: whitesmoke;
 }
 
+/* demo */
+.demo {
+	height: 100vh;
+
+}
+
+iframe {
+	display: block;
+	margin-bottom: 5vh;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15vh;
+	width: 80vw;
+	height: 50vh;
+}
+
+.demo h1 {
+	font-family: 'Sigmar One', cursive;
+	font-size: 48px;
+	color: rgb(228, 125, 137);
+	text-align: center;
+}
+
 /* About */
 .flex-contain {
 	flex-wrap: wrap;
@@ -119,9 +143,9 @@ button a {
 	text-align: center;
 	font-size: 32px;
 	margin-top: 0;
-	height: 90vh;
 	color: rgb(41, 41, 41);
 }
+
 
 * {
 	font-family: Arial, Helvetica, sans-serif;
@@ -131,6 +155,8 @@ button a {
 .aboutt {
 	color: rgb(228, 125, 137);
 	font-family: 'Sigmar One', cursive;
+	margin-bottom: 5vh;
+	text-align: center;
 }
 
 .icon {
@@ -149,6 +175,8 @@ button a {
 	margin-top: 0;
 	word-wrap: break-word;
 }
+
+
 
 /* image-slider */
 .curriculum {
