@@ -9,3 +9,4 @@ You can also check out our other links such as:
 1. [Our Website](https://anasshahidd21.github.io/Codacat-website/)
 2. [Our Project Classroom](https://www.openprocessing.org/class/62267)
 3. [Source Code for Exercises](https://github.com/Anasshahidd21/Codacat)
+4. [Our Wiki](https://github.com/Anasshahidd21/Codacat/wiki)
