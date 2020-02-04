@@ -97,6 +97,12 @@ button:hover {
 	cursor: pointer;
 }
 
+.main-button {
+	word-wrap: break-word;
+	font-size: 18px;
+	font-family: 'Source Code Pro', monospace;
+}
+
 /* button ends */
 .ellipses {
 	font-size: 60px;
