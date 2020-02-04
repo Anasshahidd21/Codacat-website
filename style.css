@@ -150,6 +150,10 @@ button a {
 	word-wrap: break-word;
 }
 
+iframe {
+	margin-bottom: 5vh;
+}
+
 /* image-slider */
 .curriculum {
 	height: 100vh;
