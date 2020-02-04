@@ -43,10 +43,6 @@ html {
 	width: 100px;
 }
 
-/* .top-bar {
-	height: 100vh;
-} */
-
 .container-top {
 	display: flex;
 	justify-content: space-around;
@@ -73,6 +69,11 @@ html {
 
 .happy-cat {
 	filter: drop-shadow(30px 10px 30px #eee8e8);
+}
+
+.happy-cat:hover {
+	transform: scale(1.1);
+	transition: ease 1s;
 }
 
 .flex-image {
