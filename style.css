@@ -17,6 +17,7 @@ html {
 
 .navigation a {
 	text-decoration: none;
+
 }
 
 .navigation {
@@ -30,6 +31,7 @@ html {
 	list-style-type: none;
 	color: rgb(228, 125, 137);
 	text-decoration: none;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .navigation li:first-child {
@@ -173,6 +175,7 @@ iframe {
 .icon>h5 {
 	margin-bottom: 3px;
 	font-size: 18px;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .icon>p {
@@ -224,6 +227,7 @@ iframe {
 
 .title {
 	font-size: 32px;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .desc {
