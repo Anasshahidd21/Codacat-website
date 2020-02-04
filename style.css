@@ -204,3 +204,38 @@ button a {
 	font-family: 'Sigmar One', cursive;
 	color: rgb(228, 125, 137);
 }
+
+
+/* cat family*/
+.cat-fam {
+	height: 100vh;
+	align-content: center;
+	text-align: center;
+}
+
+.cat-head {
+	color: rgb(228, 125, 137);
+	font-family: 'Sigmar One', cursive;
+	font-size: 48px;
+}
+
+.cats {
+	margin-top: 10vh;
+	width: 400px;
+	align-content: center;
+}
+
+.cat-flex {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cat-flex span {
+	font-size: 6rem;
+	margin-top: 25vh;
+	opacity: 0.7;
+}
+
+.cat-flex span:hover {
+	cursor: pointer;
+}
