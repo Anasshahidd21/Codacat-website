@@ -43,10 +43,6 @@ html {
 	width: 100px;
 }
 
-/* .top-bar {
-	height: 100vh;
-} */
-
 .container-top {
 	display: flex;
 	justify-content: space-around;
@@ -75,6 +71,11 @@ html {
 	filter: drop-shadow(30px 10px 30px #eee8e8);
 }
 
+.happy-cat:hover {
+	transform: scale(1.1);
+	transition: ease 1s;
+}
+
 .flex-image {
 	width: 350px;
 }
@@ -94,6 +95,12 @@ button:hover {
 	transform: scale(1.05);
 	transition: ease-out 1s;
 	cursor: pointer;
+}
+
+.main-button {
+	word-wrap: break-word;
+	font-size: 18px;
+	font-family: 'Source Code Pro', monospace;
 }
 
 /* button ends */
@@ -251,6 +258,11 @@ iframe {
 	margin-top: 10vh;
 	width: 400px;
 	align-content: center;
+}
+
+.cats:hover {
+	transform: scale(1.1);
+	transition: ease 1s;
 }
 
 .cat-flex {
