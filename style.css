@@ -190,7 +190,7 @@ iframe {
 
 /* image-slider */
 .curriculum {
-	height: 100vh;
+	/* height: 100vh; */
 }
 
 .image-ss {
@@ -247,7 +247,7 @@ iframe {
 
 /* cat family*/
 .cat-fam {
-	height: 100vh;
+	/* height: 100vh; */
 	align-content: center;
 	text-align: center;
 }
@@ -272,6 +272,7 @@ iframe {
 .cat-flex {
 	display: flex;
 	justify-content: space-evenly;
+	margin-bottom: 15vh;
 }
 
 .cat-flex span {
